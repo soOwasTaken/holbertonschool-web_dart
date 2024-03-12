@@ -1,5 +1,5 @@
 void main() {
-  String repeatedStr = "Holberton School" * 3;
-  print(repeatedStr);
-  print('${repeatedStr.substring(0, 9)}\n');
+  String str = "Holberton School";
+  print('${str * 3}\n${str.substring(0, 9)}\n');
 }
+
