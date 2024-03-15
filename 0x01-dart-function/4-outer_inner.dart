@@ -5,7 +5,7 @@ String inner (String name) {
     return "Hello Agent $lastNameInitial.$firstName";
   }
 
-Void outer(String name, String id) {
+void outer(String name, String id) {
     String result = inner(name);
     print("$result your id is $id");
   }
